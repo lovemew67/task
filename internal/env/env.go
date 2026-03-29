@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/go-task/task/v3/internal/experiments"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/go-task/task/v3/pkg/taskfile/ast"
 )
 
 func Get(t *ast.Task) []string {

@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-task/task/v3/pkg/github.com/fatih/color"
 
-	"github.com/go-task/task/v3/errors"
+	"github.com/go-task/task/v3/pkg/errors"
 	"github.com/go-task/task/v3/internal/term"
 )
 

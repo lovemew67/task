@@ -11,7 +11,7 @@ import (
 	"github.com/go-task/task/v3/pkg/github.com/zeebo/xxh3"
 
 	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/go-task/task/v3/pkg/taskfile/ast"
 )
 
 // ChecksumChecker validates if a task is up to date by calculating its source

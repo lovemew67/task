@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/go-task/task/v3/internal/deepcopy"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/go-task/task/v3/pkg/taskfile/ast"
 	"github.com/go-task/task/v3/pkg/github.com/go-task/template"
 )
 

@@ -9,7 +9,7 @@ import (
 	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/require"
 
 	"github.com/go-task/task/v3/internal/mocks"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/go-task/task/v3/pkg/taskfile/ast"
 )
 
 // TruthTable

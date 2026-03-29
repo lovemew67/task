@@ -9,16 +9,16 @@ import (
 	"github.com/go-task/task/v3/pkg/github.com/spf13/pflag"
 	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/syntax"
 
-	"github.com/go-task/task/v3"
-	"github.com/go-task/task/v3/args"
-	"github.com/go-task/task/v3/errors"
+	"github.com/go-task/task/v3/cmd"
+	"github.com/go-task/task/v3/pkg/args"
+	"github.com/go-task/task/v3/pkg/errors"
 	"github.com/go-task/task/v3/internal/experiments"
 	"github.com/go-task/task/v3/internal/flags"
 	"github.com/go-task/task/v3/internal/logger"
 	"github.com/go-task/task/v3/internal/sort"
 	ver "github.com/go-task/task/v3/internal/version"
-	"github.com/go-task/task/v3/taskfile"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/go-task/task/v3/pkg/taskfile"
+	"github.com/go-task/task/v3/pkg/taskfile/ast"
 )
 
 func main() {

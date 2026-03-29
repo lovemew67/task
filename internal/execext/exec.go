@@ -14,7 +14,7 @@ import (
 	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/shell"
 	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/syntax"
 
-	"github.com/go-task/task/v3/errors"
+	"github.com/go-task/task/v3/pkg/errors"
 )
 
 // RunCommandOptions is the options for the RunCommand func

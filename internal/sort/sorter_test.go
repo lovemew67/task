@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/assert"
 
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/go-task/task/v3/pkg/taskfile/ast"
 )
 
 func TestAlphaNumericWithRootTasksFirst_Sort(t *testing.T) {

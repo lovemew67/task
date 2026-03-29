@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-task/task/v3/internal/logger"
 	"github.com/go-task/task/v3/internal/summary"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/go-task/task/v3/pkg/taskfile/ast"
 )
 
 func TestPrintsDependenciesIfPresent(t *testing.T) {

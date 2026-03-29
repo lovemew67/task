@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	ast "github.com/go-task/task/v3/taskfile/ast"
+	ast "github.com/go-task/task/v3/pkg/taskfile/ast"
 
 	mock "github.com/go-task/task/v3/pkg/github.com/stretchr/testify/mock"
 )
