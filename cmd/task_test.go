@@ -22,7 +22,7 @@ import (
 	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/assert"
 	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/require"
 
-	"github.com/go-task/task/v3"
+	task "github.com/go-task/task/v3/cmd"
 	"github.com/go-task/task/v3/pkg/errors"
 	"github.com/go-task/task/v3/internal/experiments"
 	"github.com/go-task/task/v3/internal/filepathext"
@@ -229,14 +229,14 @@ func TestSpecialVars(t *testing.T) {
 		{target: "print-root-dir", expected: toAbs(dir)},
 		{target: "print-taskfile", expected: toAbs(dir) + "/Taskfile.yml"},
 		{target: "print-taskfile-dir", expected: toAbs(dir)},
-		{target: "print-task-version", expected: "unknown"},
+		{target: "print-task-version", expected: "3.48.0"},
 		{target: "print-task-dir", expected: toAbs(dir) + "/foo"},
 		// Included
 		{target: "included:print-task", expected: "included:print-task"},
 		{target: "included:print-root-dir", expected: toAbs(dir)},
 		{target: "included:print-taskfile", expected: toAbs(dir) + "/included/Taskfile.yml"},
 		{target: "included:print-taskfile-dir", expected: toAbs(dir) + "/included"},
-		{target: "included:print-task-version", expected: "unknown"},
+		{target: "included:print-task-version", expected: "3.48.0"},
 	}
 
 	for _, dir := range []string{dir, subdir} {
