@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/zeebo/xxh3"
+	"github.com/go-task/task/v3/pkg/github.com/zeebo/xxh3"
 
 	"github.com/go-task/task/v3/internal/filepathext"
 	"github.com/go-task/task/v3/taskfile/ast"

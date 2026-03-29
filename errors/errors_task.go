@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"mvdan.cc/sh/v3/interp"
+	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/interp"
 )
 
 // TaskNotFoundError is returned when the specified task is not found in the

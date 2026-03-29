@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"mvdan.cc/sh/v3/expand"
-	"mvdan.cc/sh/v3/interp"
-	"mvdan.cc/sh/v3/shell"
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/expand"
+	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/interp"
+	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/shell"
+	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/syntax"
 
 	"github.com/go-task/task/v3/errors"
 )

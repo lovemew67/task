@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Ladicle/tabwriter"
-	"golang.org/x/sync/errgroup"
+	"github.com/go-task/task/v3/pkg/github.com/Ladicle/tabwriter"
+	"github.com/go-task/task/v3/pkg/golang.org/x/sync/errgroup"
 
 	"github.com/go-task/task/v3/internal/editors"
 	"github.com/go-task/task/v3/internal/fingerprint"

@@ -5,9 +5,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/dominikbraun/graph"
-	"github.com/dominikbraun/graph/draw"
-	"golang.org/x/sync/errgroup"
+	"github.com/go-task/task/v3/pkg/github.com/dominikbraun/graph"
+	"github.com/go-task/task/v3/pkg/github.com/dominikbraun/graph/draw"
+	"github.com/go-task/task/v3/pkg/golang.org/x/sync/errgroup"
 )
 
 type TaskfileGraph struct {

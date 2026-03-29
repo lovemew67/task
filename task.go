@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"mvdan.cc/sh/v3/interp"
+	"github.com/go-task/task/v3/pkg/mvdan.cc/sh/v3/interp"
 
 	"github.com/go-task/task/v3/errors"
 	"github.com/go-task/task/v3/internal/compiler"
@@ -26,8 +26,8 @@ import (
 	"github.com/go-task/task/v3/internal/templater"
 	"github.com/go-task/task/v3/taskfile/ast"
 
-	"github.com/sajari/fuzzy"
-	"golang.org/x/sync/errgroup"
+	"github.com/go-task/task/v3/pkg/github.com/sajari/fuzzy"
+	"github.com/go-task/task/v3/pkg/golang.org/x/sync/errgroup"
 )
 
 const (

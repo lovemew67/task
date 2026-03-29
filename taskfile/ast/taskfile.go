@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Masterminds/semver/v3"
-	"gopkg.in/yaml.v3"
+	"github.com/go-task/task/v3/pkg/github.com/Masterminds/semver/v3"
+	"github.com/go-task/task/v3/pkg/gopkg.in/yaml.v3"
 
 	"github.com/go-task/task/v3/errors"
 )

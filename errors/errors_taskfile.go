@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Masterminds/semver/v3"
+	"github.com/go-task/task/v3/pkg/github.com/Masterminds/semver/v3"
 )
 
 // TaskfileNotFoundError is returned when no appropriate Taskfile is found when

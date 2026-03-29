@@ -3,7 +3,7 @@ package term
 import (
 	"os"
 
-	"golang.org/x/term"
+	"github.com/go-task/task/v3/pkg/golang.org/x/term"
 )
 
 func IsTerminal() bool {

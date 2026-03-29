@@ -4,7 +4,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/mattn/go-zglob"
+	"github.com/go-task/task/v3/pkg/github.com/mattn/go-zglob"
 
 	"github.com/go-task/task/v3/internal/execext"
 	"github.com/go-task/task/v3/internal/filepathext"

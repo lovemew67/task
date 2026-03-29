@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/assert"
+	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/require"
 
 	"github.com/go-task/task/v3"
 	"github.com/go-task/task/v3/internal/filepathext"

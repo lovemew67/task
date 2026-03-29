@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Masterminds/semver/v3"
-	"github.com/otiai10/copy"
-	"github.com/spf13/pflag"
+	"github.com/go-task/task/v3/pkg/github.com/Masterminds/semver/v3"
+	"github.com/go-task/task/v3/pkg/github.com/otiai10/copy"
+	"github.com/go-task/task/v3/pkg/github.com/spf13/pflag"
 
 	"github.com/go-task/task/v3/errors"
 )

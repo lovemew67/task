@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-task/task/v3/internal/deepcopy"
 	"github.com/go-task/task/v3/taskfile/ast"
-	"github.com/go-task/template"
+	"github.com/go-task/task/v3/pkg/github.com/go-task/template"
 )
 
 // Cache is a help struct that allow us to call "replaceX" funcs multiple

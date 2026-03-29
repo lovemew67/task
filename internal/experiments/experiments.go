@@ -8,9 +8,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/Ladicle/tabwriter"
-	"github.com/joho/godotenv"
-	"github.com/spf13/pflag"
+	"github.com/go-task/task/v3/pkg/github.com/Ladicle/tabwriter"
+	"github.com/go-task/task/v3/pkg/github.com/joho/godotenv"
+	"github.com/go-task/task/v3/pkg/github.com/spf13/pflag"
 
 	"github.com/go-task/task/v3/internal/logger"
 )

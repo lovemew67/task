@@ -4,8 +4,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/elliotchance/orderedmap/v2"
-	"gopkg.in/yaml.v3"
+	"github.com/go-task/task/v3/pkg/github.com/elliotchance/orderedmap/v2"
+	"github.com/go-task/task/v3/pkg/gopkg.in/yaml.v3"
 
 	"github.com/go-task/task/v3/errors"
 	"github.com/go-task/task/v3/internal/deepcopy"

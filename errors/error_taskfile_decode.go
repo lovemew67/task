@@ -8,11 +8,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/alecthomas/chroma/v2"
-	"github.com/alecthomas/chroma/v2/quick"
-	"github.com/alecthomas/chroma/v2/styles"
-	"github.com/fatih/color"
-	"gopkg.in/yaml.v3"
+	"github.com/go-task/task/v3/pkg/github.com/alecthomas/chroma/v2"
+	"github.com/go-task/task/v3/pkg/github.com/alecthomas/chroma/v2/quick"
+	"github.com/go-task/task/v3/pkg/github.com/alecthomas/chroma/v2/styles"
+	"github.com/go-task/task/v3/pkg/github.com/fatih/color"
+	"github.com/go-task/task/v3/pkg/gopkg.in/yaml.v3"
 )
 
 //go:embed themes/*.xml

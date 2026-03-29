@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dominikbraun/graph"
-	"golang.org/x/sync/errgroup"
-	"gopkg.in/yaml.v3"
+	"github.com/go-task/task/v3/pkg/github.com/dominikbraun/graph"
+	"github.com/go-task/task/v3/pkg/golang.org/x/sync/errgroup"
+	"github.com/go-task/task/v3/pkg/gopkg.in/yaml.v3"
 
 	"github.com/go-task/task/v3/errors"
 	"github.com/go-task/task/v3/internal/compiler"

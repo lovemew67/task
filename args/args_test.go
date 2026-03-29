@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/assert"
 
 	"github.com/go-task/task/v3/args"
 	"github.com/go-task/task/v3/taskfile/ast"

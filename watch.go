@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/radovskyb/watcher"
+	"github.com/go-task/task/v3/pkg/github.com/radovskyb/watcher"
 
 	"github.com/go-task/task/v3/errors"
 	"github.com/go-task/task/v3/internal/fingerprint"

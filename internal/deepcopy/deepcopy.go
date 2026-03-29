@@ -3,7 +3,7 @@ package deepcopy
 import (
 	"reflect"
 
-	"github.com/elliotchance/orderedmap/v2"
+	"github.com/go-task/task/v3/pkg/github.com/elliotchance/orderedmap/v2"
 )
 
 type Copier[T any] interface {

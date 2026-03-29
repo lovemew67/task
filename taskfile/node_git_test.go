@@ -3,7 +3,7 @@ package taskfile
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/assert"
 )
 
 func TestGitNode_ssh(t *testing.T) {

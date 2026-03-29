@@ -3,7 +3,7 @@ package hash
 import (
 	"fmt"
 
-	"github.com/mitchellh/hashstructure/v2"
+	"github.com/go-task/task/v3/pkg/github.com/mitchellh/hashstructure/v2"
 
 	"github.com/go-task/task/v3/taskfile/ast"
 )

@@ -3,9 +3,9 @@ package ast_test
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	"gopkg.in/yaml.v3"
+	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/assert"
+	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/require"
+	"github.com/go-task/task/v3/pkg/gopkg.in/yaml.v3"
 
 	"github.com/go-task/task/v3/taskfile/ast"
 )

@@ -7,9 +7,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/fatih/color"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/go-task/task/v3/pkg/github.com/fatih/color"
+	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/assert"
+	"github.com/go-task/task/v3/pkg/github.com/stretchr/testify/require"
 
 	"github.com/go-task/task/v3/internal/logger"
 	"github.com/go-task/task/v3/internal/output"
