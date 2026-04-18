@@ -17,7 +17,7 @@ func init() {
 	version = strings.TrimSpace(version)
 	// Attempt to get build info from the Go runtime. We only use this if not
 	// built from a tagged version.
-	if info, ok := debug.ReadBuildInfo(); ok && info.Main.Version == "(devel)" {
+	if info, ok := debug.ReadBuildInfo(); ok {
 		commit = getCommit(info)
 		dirty = getDirty(info)
 	}
